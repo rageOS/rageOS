@@ -1,0 +1,5 @@
+<meta>
+    <info name="rageOS" description="ultimate open source rageMP GTA V multiplayer server" />
+
+    <script src="bin\Debug\netcoreapp2.0\rageOS.dll" type="server" lang="compiled" />
+</meta>

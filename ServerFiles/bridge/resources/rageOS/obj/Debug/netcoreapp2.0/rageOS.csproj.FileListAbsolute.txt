@@ -1,0 +1,9 @@
+C:\Users\Marcus\Desktop\rageOS\server-files\bridge\resources\rageOS\bin\Debug\netcoreapp2.0\rageOS.deps.json
+C:\Users\Marcus\Desktop\rageOS\server-files\bridge\resources\rageOS\bin\Debug\netcoreapp2.0\rageOS.dll
+C:\Users\Marcus\Desktop\rageOS\server-files\bridge\resources\rageOS\bin\Debug\netcoreapp2.0\rageOS.pdb
+C:\Users\Marcus\Desktop\rageOS\server-files\bridge\resources\rageOS\obj\Debug\netcoreapp2.0\rageOS.csprojResolveAssemblyReference.cache
+C:\Users\Marcus\Desktop\rageOS\server-files\bridge\resources\rageOS\obj\Debug\netcoreapp2.0\rageOS.csproj.CoreCompileInputs.cache
+C:\Users\Marcus\Desktop\rageOS\server-files\bridge\resources\rageOS\obj\Debug\netcoreapp2.0\rageOS.AssemblyInfoInputs.cache
+C:\Users\Marcus\Desktop\rageOS\server-files\bridge\resources\rageOS\obj\Debug\netcoreapp2.0\rageOS.AssemblyInfo.cs
+C:\Users\Marcus\Desktop\rageOS\server-files\bridge\resources\rageOS\obj\Debug\netcoreapp2.0\rageOS.dll
+C:\Users\Marcus\Desktop\rageOS\server-files\bridge\resources\rageOS\obj\Debug\netcoreapp2.0\rageOS.pdb
