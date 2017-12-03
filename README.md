@@ -1,3 +1,7 @@
+# Status
+WIP (Work in Progress)
+This is not for Production at this moment!
+
 # What is rageOS?
 The ultimate open source rageMP GTA V multiplayer server build with GTA-N .NET Core bridge and rageMP server files.
 
@@ -17,7 +21,7 @@ Contributers can provide pull requests with their fully documented sources to he
 
 # Installation
 
-Create a file in the bridge folder with the following content or add the missing lines:
+Create a settings.xml file in the bridge folder with the following content or add the missing lines:
 
 ```
 <?xml version="1.0"?>
@@ -28,3 +32,9 @@ Create a file in the bridge folder with the following content or add the missing
 
 * Install the database in your MySQL or MariaDB Server
 * Download the resources and put them into the bridge/resources folder
+
+# ToDo
+* Wait for the GTAN Bridge to be released
+* Test all implemented Database structures
+* ReCheck all CS Files
+
