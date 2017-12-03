@@ -1,13 +1,18 @@
 ﻿using System;
 using GTANetworkAPI;
 
-namespace rageOS
+namespace RageOS
 {
-    public class rageOS : Script
+    public class RageOS : Script
     {
-        public rageOS()
+        public RageOS()
         {
+            API.OnResourceStart += API_OnResourceStart;
+        }
 
+        private void API_OnResourceStart()
+        {
+            
         }
     }
 }

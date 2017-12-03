@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+
+<html lang="de" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="UTF-8" />
+        <title>ATM</title>
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="../Money/ATM.js"></script>
+        <link rel="stylesheet" type ="text/css" href="css/atm.css">
+
+        <script>
+            $(document).ready(function () {
+                resourceCall('GetBankMoney');
+            });
+        </script>
+    </head>
+    <body>
+	    <div id="alles">
+            <input type="button" value="X" id="exit" onclick="exit()" />
+            <h1>Bankautomat</h1>
+        <form>
+            <div>
+                <h4>Bankguthaben :
+                    <span id="guthaben">0€</span>
+                </h4>
+                <center>
+                </center>
+            </div>
+            <div id="einzahlen">
+               <h4>Geld auf dein Konto einzahlen</h4>
+                <center>
+                    <input type="text" id="einzahlenTextBox"/>
+                    <input type="button" id="einzahlenButton" value="Einzahlen" onclick="depositMoney()" />
+                </center>
+            </div>
+            <div id="auszahlen">
+                <h4>Geld von deinem Konto abheben</h4>
+                <center>
+                    <input type="text" id="auszahlenTextBox" />
+                    <input type="button" id="auszahlButton" value="Auszahlen" onclick="withdrawMoney()" />
+                </center>
+            </div>
+        </form>
+	    </div>
+    </body>
+</html>

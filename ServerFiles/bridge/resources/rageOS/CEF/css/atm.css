@@ -1,0 +1,149 @@
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0 auto;
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+    background-color: transparent;
+}
+#bild {
+    background-image: url("gta5logo.png");
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 600px;
+}
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-weight: bold;
+    color: cornflowerblue;
+    border: 1px ridge black;
+    border-radius: 20px;
+    background-color: black;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top:30px;
+}
+#alles {
+    background-color:cornflowerblue;
+    border-radius: 20px;
+    opacity: 0.80;
+    border: 3px ridge black;
+    padding:0;
+    margin:0;
+    width:600px;
+    height:600px;
+    padding-bottom:0;
+}
+#guthaben {
+    color: forestgreen;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-size:18px;
+}
+
+
+input[type="button"] {
+    background-color: black;
+    color: cornflowerblue;
+    display: block;
+    width: 30%;
+    height: 50px;
+    border: 3px ridge black;
+    font-size: 22pt;
+    border-radius: 20px;
+    border-collapse: collapse;
+}
+h4 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-weight: bold;
+    margin:0 60px 15px 60px;        
+    color: cornflowerblue;
+    border: 1px ridge black;
+    border-radius: 20px;
+    background-color: black;
+    font-size:20px;
+    padding:15px;
+}
+#exit
+{
+    color:red; 
+    font-size:15px;
+    font-weight:bold;
+    float:right;
+    width:30px;
+    height:30px;
+    margin: 5px 5px 5px 5px;
+    text-align:center;
+    padding-left:6.5px;
+}
+#einzahlen
+{
+    margin-bottom:15px;
+}
+#exit:hover
+{
+    border:3px ridge red;
+    text-align:center;
+}
+input[type="text"] {
+    display: block;
+    border-radius: 20px;
+    height: 30px;
+    width: 30%;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-left: 10px;
+    border-collapse: collapse;
+    margin-bottom:10px;
+}
+    input[type="button"]:hover {
+        border: 3px ridge green;
+        color:green;
+    }
+
+html:focus {
+   border-color: inherit;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+   outline: none;
+    }
+
+span
+{
+    
+    color:gray;
+    font-size:13px;
+    font-weight:bold;
+}
+div {
+    position: relative; 
+    padding-top: 16px; 
+}
+
+.inputText {
+    font-size: 14px;
+    width: 200px;
+    height: 25px;
+}
+
+.floating-label {
+    position: absolute;
+    pointer-events: none;
+    left: 15px;
+    top: 18px;
+    transition: 0.2s ease all;
+    color:dimgrey;
+}
+
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label {
+    top: -6px;
+}

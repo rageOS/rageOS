@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html lang="de" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta chatset="UTF-8" />
+        <title>Progressbar</title>
+        <link rel="stylesheet" type="text/css" href="css/progressbar.css">
+
+        <script>
+            var color;
+            function updateProgress(value, name) {
+                document.GetElementById("progress-main").Style.width = value + "%";
+                document.GetElementById("Percent").innerText = name + " - " + value + "% ";
+
+                if (parseInt(value) > 90) {
+                    color = '#088A08';
+                }
+                else if (parseInt(value) > 75) {
+                    color = '#298A08';
+                }
+                else if (parseInt(value) > 60) {
+                    color = '#4B8A08';
+                }
+                else if (parseInt(value) > 40) {
+                    color = '#886A08';
+                }
+                else if (parseInt(value) > 20) {
+                    color = '#8A2908';
+                }
+                else if (parseInt(value) > 0) {
+                    color = '#8A0808';
+                }
+                document.GetElementById('progress-main').Style.backgroundColor = color;
+            }
+        </script>
+
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="progress-main">
+                <center>
+                    <span class="progress-text" id="Percent">100</span>
+                </center>
+            </div>
+            <div class="progress-bar">
+                <span class="progress-bar-fill" id="progress-main" width="100%" style="width:100%; max-width:100%;"></span>
+            </div>
+        </div>
+    </body>
+</html>

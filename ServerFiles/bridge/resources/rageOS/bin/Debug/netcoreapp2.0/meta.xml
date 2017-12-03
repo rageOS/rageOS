@@ -1,0 +1,63 @@
+<meta>
+  <info name="rageOS" description="ultimate open source rageMP GTA V multiplayer server" />
+
+  <script src="rageOS.dll" type="server" lang="compiled" />
+
+  <!-- CEF -->
+  <!-- JS -->
+  <file src="CEF/js/jquery-3.2.1.min.js" />
+  <script src="CEF/js/progressbar.js" type="client" lang="javascript" />
+  <script src="CEF/js/CEFHelper.js" type="client" lang="javascript" />
+  <script src="CEF/js/playerhud.js" type="client" lang="javascript" />
+  <!-- CSS -->
+  <file src="CEF/css/atm.css" />
+  <file src="CEF/css/progressbar.css" />
+  <file src="CEF/css/playerhud.css" />
+  <!-- IMG -->
+  <file src="CEF/img/food.png" />
+  <file src="CEF/img/drink.png" />
+  <file src="CEF/img/money.png" />
+  <file src="CEF/img/voice1.png" />
+  <file src="CEF/img/voice2.png" />
+  <file src="CEF/img/voice3.png" />
+  <file src="CEF/img/shopui_title.png" />
+  <file src="CEF/img/Logo.png" />
+  <!-- HTML -->
+  <file src="CEF/atm.html" />
+  <file src="CEF/progressbar.html" />
+  <file src="CEF/playerhud.html" />
+  <!-- DBX -->
+  <script src="CEF/DBX/Text_Scrollbar.js" type="client" lang="javascript" />
+  <script src="CEF/DBX/Text_Input.js" type="client" lang="javascript" />
+  <script src="CEF/DBX/Option_Dropdown.js" type="client" lang="javascript" />
+  <script src="CEF/DBX/Option_Scrollbar.js" type="client" lang="javascript" />
+  
+  <!-- Global -->
+  <script src="Commands/Commands.js" type="client" lang="javascript" />
+  <script src="doormanager/doormanager.js" type="client" lang="javascript" />
+  
+  <!-- MenuManager -->
+  <script src="MenuManager/Client/MenuManager.js" type="client" lang="javascript" />
+  <script src="MenuManager/Client/MenuManagerShop.js" type="client" lang="javascript" />
+
+  <!-- Player -->
+  <script src="Player/CharCreator/CharCreator.js" type="client" lang="javascript" />
+  <script src="Player/KeyManager.js" type="client" lang="javascript" />
+  <script src="Player/DrunkPlayer.js" type="client" lang="javascript" />
+  
+  <!-- Money -->
+  <script src="Money/ATM.js" type="client" lang="javascript" />
+  
+  <!-- Vehicles -->
+  <script src="Vehicles/Carwash/Carwash.js" type="client" lang="javascript" />
+
+  <!-- Shops -->
+  <script src="Shops/Masks/mask.js" type="client" lang="javascript" />
+  <script src="Shops/Clothing/Clothings.js" type="client" lang="javascript" />
+
+  <!-- Soundfiles -->
+  <script src="Sound/AudioLibrary.js" type="client" lang="javascript" />
+  <file src="Sound/LockVehicle.mp3" />
+  <file src="Sound/UnlockVehicle.mp3" />
+  
+</meta>
