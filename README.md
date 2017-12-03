@@ -15,3 +15,16 @@ Contributers can provide pull requests with their fully documented sources to he
 * All contributions are licenced under the same licence as rageOS
 * All contributions have to have configuruation files for behavior control (enabling or disabling features, setting prices, amounts etc.)
 
+# Installation
+
+Create a file in the bridge folder with the following content or add the missing lines:
+
+```
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <resource src="rageOS" />
+</config>
+```
+
+* Install the database in your MySQL or MariaDB Server
+* Download the resources and put them into the bridge/resources folder
